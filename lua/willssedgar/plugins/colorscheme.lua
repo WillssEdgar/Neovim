@@ -41,5 +41,8 @@ return {
     })
 
     vim.cmd("colorscheme tokyonight")
+
+    vim.cmd([[highlight Folded guibg=#282c34 guifg=#abb2bf]])
+    vim.cmd([[highlight FoldColumn guibg=#282c34 guifg=#abb2bf]])
   end,
 }

@@ -20,3 +20,5 @@ require("lazy").setup("willssedgar.plugins", {
     notify = false,
   },
 })
+
+require("flutter-tools").setup({}) -- use defaults

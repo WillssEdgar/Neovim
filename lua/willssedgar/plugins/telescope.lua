@@ -12,8 +12,6 @@ return {
     local actions = require("telescope.actions")
     local transform_mod = require("telescope.actions.mt").transform_mod
 
-   
-
     telescope.setup({
       defaults = {
         path_display = { "smart" },
