@@ -32,6 +32,7 @@ return {
         "tsserver",
         "pyright",
         "tailwindcss",
+        "clangd",
       },
       handlers = {
         function(server_name) -- default handler (optional)
