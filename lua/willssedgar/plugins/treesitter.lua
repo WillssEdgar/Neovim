@@ -30,7 +30,7 @@ return {
         "html",
         "css",
         "prisma",
-       "markdown",
+        "markdown",
         "markdown_inline",
         "svelte",
         "graphql",
@@ -44,6 +44,7 @@ return {
         "java",
         "vimdoc",
         "c",
+        "apex",
       },
       incremental_selection = {
         enable = true,

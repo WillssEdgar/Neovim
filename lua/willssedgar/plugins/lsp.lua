@@ -33,6 +33,8 @@ return {
         "pyright",
         "tailwindcss",
         "clangd",
+        "apex_ls",
+        "visualforce_ls",
       },
       handlers = {
         function(server_name) -- default handler (optional)

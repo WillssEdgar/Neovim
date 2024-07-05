@@ -55,6 +55,13 @@ return {
         theme = my_lualine_theme,
       },
       sections = {
+        lualine_c = {
+          "filename",
+          {
+            "require'sf'.get_target_org()",
+            icon = "󰢎",
+          },
+        },
         lualine_x = {
           {
             lazy_status.updates,
