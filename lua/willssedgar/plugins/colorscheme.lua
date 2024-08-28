@@ -16,7 +16,7 @@ return {
 
     require("tokyonight").setup({
       style = "night",
-      transparent = transparent,
+      transparent = false,
       styles = {
         sidebars = transparent and "transparent" or "dark",
         floats = transparent and "transparent" or "dark",
@@ -38,6 +38,29 @@ return {
         colors.fg_gutter = fg_gutter
         colors.fg_sidebar = fg_dark
       end,
+
+      --   styles = {
+      --     sidebars = "dark",
+      --     floats = "dark",
+      --   },
+      --
+      --   on_colors = function(colors)
+      --     colors.bg = bg
+      --     colors.bg_dark = bg_dark
+      --     colors.bg_float = bg_dark
+      --     colors.bg_highlight = bg_highlight
+      --     colors.bg_popup = bg_dark
+      --     colors.bg_search = bg_search
+      --     colors.bg_sidebar = bg_dark
+      --     colors.bg_statusline = bg_dark
+      --     colors.bg_visual = bg_visual
+      --     colors.border = border
+      --     colors.fg = fg
+      --     colors.fg_dark = fg_dark
+      --     colors.fg_float = fg
+      --     colors.fg_gutter = fg_gutter
+      --     colors.fg_sidebar = fg_dark
+      --   end,
     })
 
     vim.cmd("colorscheme tokyonight")

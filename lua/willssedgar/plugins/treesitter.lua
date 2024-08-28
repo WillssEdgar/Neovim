@@ -19,6 +19,23 @@ return {
       -- enable autotagging (w/ nvim-ts-autotag plugin)
       autotag = {
         enable = true,
+        filetypes = {
+          "html",
+          "javascript",
+          "typescript",
+          "javascriptreact",
+          "typescriptreact",
+          "svelte",
+          "vue",
+          "tsx",
+          "jsx",
+          "rescript",
+          "css",
+          "lua",
+          "xml",
+          "php",
+          "markdown",
+        },
       },
       -- ensure these language parsers are installed
       ensure_installed = {
@@ -45,6 +62,9 @@ return {
         "vimdoc",
         "c",
         "apex",
+        "soql",
+        "sosl",
+        "xml",
       },
       incremental_selection = {
         enable = true,
